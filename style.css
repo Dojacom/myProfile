@@ -1,0 +1,50 @@
+
+
+body{
+    background: #294D61;
+    backdrop-filter: blur(10px);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: #072E33;
+    width: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    border-radius: 16px;
+}
+.profile{
+    padding: 5px 10px;
+}
+.slackDisplayImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.slackUserName{
+    color: #6DA5C0;
+    font-weight: bolder;
+    margin-bottom: -5px;
+}
+.calendar{
+    display: flex;
+    justify-content: space-between;
+}
+.myTrack{
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: -5px;
+}
+.currentDayOfTheWeek, .currentUTCTime{
+    color: #6DA5C0;
+    
+}
+.githubURL{
+    color: #6DA5C0;
+    font-size: 16px;
+}
