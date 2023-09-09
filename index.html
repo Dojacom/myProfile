@@ -10,14 +10,20 @@
 <body>
     <div class="container">
         <div class="profile">
-            <img src="asset/profile.jpg" class="slackDisplayImage" alt="Ismail Oladoja">
-            <h1 class="slackUserName">Ismail Oladoja</h1>
-            <p class="myTrack">Frontend Developer</p>
+
+            <img src="asset/profile.jpg" id="slackDisplayImage" data-testid="slackDisplayImage" alt="Ismail Oladoja">
+
+            <h1 id="slackUserName" data-testid="slackUserName">Ismail Oladoja</h1>
+            <p id="myTrack" data-testid="myTrack">Frontend Developer</p>
+
             <div class="calendar">
-                <span class="currentDayOfTheWeek"></span>
-                <span class="currentUTCTime"></span>
+                
+                <b>Date: <span id="currentDayOfTheWeek" data-testid="currentDayOfTheWeek"></span></b>
+
+                <b>Time: <span id="currentUTCTime" data-testid="currentUTCTime"></span></b>
             </div>
-            <p><a href="https://github.com/Dojacom/myProfile.git" class="githubURL">Github URL Source Code</a></p>
+
+            <p><a href="https://github.com/Dojacom/myProfile.git" id="githubURL" data-testid="githubURL">Github URL Source Code</a></p>
         </div>
     </div>
 
