@@ -20,31 +20,33 @@ body{
 .profile{
     padding: 5px 10px;
 }
-.slackDisplayImage{
+#slackDisplayImage{
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
 
-.slackUserName{
+#slackUserName{
     color: #6DA5C0;
     font-weight: bolder;
     margin-bottom: -5px;
 }
 .calendar{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+   
 }
-.myTrack{
+#myTrack{
     font-size: 16px;
     font-weight: 700;
     padding-top: -5px;
 }
-.currentDayOfTheWeek, .currentUTCTime{
+#currentDayOfTheWeek, #currentUTCTime{
     color: #6DA5C0;
     
 }
-.githubURL{
+#githubURL{
     color: #6DA5C0;
     font-size: 16px;
 }
