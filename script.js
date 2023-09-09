@@ -1,5 +1,5 @@
-const currentDayOfTheWeek = document.querySelector(".currentDayOfTheWeek");
-const currentUTCTime = document.querySelector(".currentUTCTime");
+const currentDayOfTheWeek = document.querySelector("#currentDayOfTheWeek");
+const currentUTCTime = document.querySelector("#currentUTCTime");
 
 function todayDate(){
     const date =  new Date();
@@ -7,7 +7,7 @@ function todayDate(){
     const formattedDate = date.toDateString();
 
     //formatting time 
-    const formattedTime = date.toLocaleTimeString("en-US")
+    const formattedTime = date.getTime()
 
     //output in the HTML
     currentDayOfTheWeek.innerHTML = formattedDate;
